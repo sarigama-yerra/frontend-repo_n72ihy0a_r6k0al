@@ -85,10 +85,10 @@ const Hero = () => {
       <div className="pointer-events-none absolute bottom-6 left-1/2 z-10 w-full -translate-x-1/2 px-6 md:bottom-10">
         <div className="mx-auto grid max-w-5xl grid-cols-2 gap-3 md:grid-cols-4">
           {[
-            { icon: <Shield className=\"h-4 w-4\" />, label: 'Zero-Trust' },
-            { icon: <Server className=\"h-4 w-4\" />, label: 'Automation' },
-            { icon: <Network className=\"h-4 w-4\" />, label: 'High Availability' },
-            { icon: <Shield className=\"h-4 w-4\" />, label: 'Hardening' },
+            { icon: <Shield className="h-4 w-4" />, label: 'Zero-Trust' },
+            { icon: <Server className="h-4 w-4" />, label: 'Automation' },
+            { icon: <Network className="h-4 w-4" />, label: 'High Availability' },
+            { icon: <Shield className="h-4 w-4" />, label: 'Hardening' },
           ].map((b, i) => (
             <motion.div
               key={i}
